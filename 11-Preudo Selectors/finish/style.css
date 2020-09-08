@@ -1,0 +1,41 @@
+p::first-line{
+    font-weight: bold;
+    color: brown;
+}
+ul li{
+    list-style-type: none;
+}
+ul li:first-child{
+    background-color: chartreuse;
+}
+ul li:last-child{
+    background-color: coral;
+}
+
+ul li:nth-child(5){
+    background-color: cyan;
+}
+
+ul li:last-child{
+    background-color: coral;
+}
+ul li:nth-of-type(even){
+    border: 1px solid blue;
+}
+
+ul li:nth-of-type(odd){
+    border: 1px solid pink;
+}
+
+a:link{
+    color: gray;
+    
+}
+a:hover{
+    color: white;
+    background-color: yellowgreen;
+}
+
+input:focus{
+    background-color: blueviolet;
+}
